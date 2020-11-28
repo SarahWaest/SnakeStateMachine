@@ -24,5 +24,12 @@ namespace SnakeStateMachine
                 Console.WriteLine(snake.DirectionNames);
             }
         }
+
+        private void PlaygroundArea()
+        {
+            Playground pga = new Playground();
+            pga.AssignChar();
+            pga.DrawPlayground();
+        }
     }
 }

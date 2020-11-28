@@ -8,13 +8,14 @@ namespace SnakeStateMachine
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            SnakeStateMachine snake = new SnakeStateMachine();
-            Console.WriteLine(snake.DirectionNames);
-            while (true)
-            {
-                snake.changeddirection(Console.ReadKey());
-                Console.WriteLine(snake.DirectionNames);
-            }
+            Playground playground = new Playground();
+            //SnakeStateMachine snake = new SnakeStateMachine();
+            //Console.WriteLine(snake.DirectionNames);
+            //while (true)
+            //{
+            //    snake.changeddirection(Console.ReadKey());
+            //    Console.WriteLine(snake.DirectionNames);
+            //}
         }
     }
 }
